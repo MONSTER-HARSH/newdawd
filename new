@@ -1,0 +1,33 @@
+class Car:
+    model = " "
+    tcars = 0
+    price = 0
+
+    def total(self,x,y):
+        return x*y
+
+
+
+def indetails():
+    count = int(input("Enter the number of input you wanna give: "))
+    i = 0
+    name = "test"
+    cost = 0
+    tcar = 0
+    check =["BMW"]
+    while i < count:
+        name = str(input("Enter the model name: "))
+        
+        
+        
+    if name in check:
+        print ("Invailed input")
+    else:
+        print("LOL")        
+           
+        cost = input()
+
+print('**** Welcome to "Monsterz" showroom ****')
+print("1.Show the delails")
+print("2.provide the details")
+indetails()
